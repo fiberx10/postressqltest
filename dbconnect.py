@@ -39,7 +39,7 @@ class Dbconnect() :
             print(_config_error)
             return False
         return True
-    def check(self , data :list )->bool : 
+    def check(self , data :list )->int : 
         cursor = self.conn.cursor()
         gdata = ""
         if len(data) != 2 : return 0 
