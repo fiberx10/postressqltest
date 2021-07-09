@@ -75,9 +75,9 @@ class Dbconnect() :
             print(_config_error)
             return 0
         return ndata
-dbconnect = Dbconnect(host ='localhost'  , port=5432 , dbname="test" )
-dbconnect._auth(username='fiberx01' ,password="0000")
-dbconnect.connect()
+#dbconnect = Dbconnect(host ='localhost'  , port=5432 , dbname="test" )
+#dbconnect._auth(username='fiberx01' ,password="0000")
+#dbconnect.connect()
 # exemple for update()edit data : update(list : olddata , list : ndata )
 
 # data = dbconnect.update(olddata = ['ali' , 'hamza' , '11/06/2001' , 'algi'] , ndata =['ali' , 'hamza' , '11/06/2001' , 'maroc'])
